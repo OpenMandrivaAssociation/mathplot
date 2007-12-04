@@ -9,7 +9,7 @@ Group:		Sciences/Mathematics
 Url:		http://merd.net/pixel/mathplot.html
 Source0:	http://merd.net/pixel/%{name}-%{version}.src.tar.bz2
 Requires:	tk tcl
-BuildRequires:	ocaml >= 3.00 ocamltk XFree86-devel ImageMagick ncurses-devel
+BuildRequires:	ocaml >= 3.00 ocamltk X11-devel ImageMagick ncurses-devel
 BuildRequires:	findlib ocaml-simple_gettext tk tk-devel tcl tcl-devel
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
