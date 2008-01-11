@@ -53,18 +53,6 @@ convert icons/mathplot-icon.gif $RPM_BUILD_ROOT%{_miconsdir}/mathplot.png
 convert icons/mathplot-icon-large.gif $RPM_BUILD_ROOT%{_iconsdir}/mathplot.png
 convert icons/mathplot-icon-mini.gif $RPM_BUILD_ROOT%{_liconsdir}/mathplot.png
 
-install -d %{buildroot}%{_menudir}
-install -d %{buildroot}%{_menudir}
-cat <<EOF > %{buildroot}%{_menudir}/%{name}
-?package(%{name}):\
-needs="x11"\
-section="More Applications/Sciences/Mathematics"\
-title="Mathplot"\
-longtitle="%{Summary}"\
-command="%{name}"\
-icon="%{name}.png" \
-xdg="true"
-EOF
 
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications
@@ -97,7 +85,6 @@ rm -rf %{buildroot}
 %lang(es) %{_mandir}/es/*/*
 %{_mandir}/man*/*
 %{_datadir}/applications/*
-%{_menudir}/*
 %{_iconsdir}/%{name}*
 %{_iconsdir}/*/*
 
