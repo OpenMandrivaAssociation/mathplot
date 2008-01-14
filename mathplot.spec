@@ -1,11 +1,11 @@
 Summary:	Interactive function grapher
 Name:		mathplot
-Version:	0.8.5
-Release:	%mkrel 5
-License:	GPL+
+Version:	0.8.6
+Release:	%mkrel 1
+License:	GPLv3+
 Group:		Sciences/Mathematics
 Url:		http://merd.net/pixel/mathplot.html
-Source0:	http://merd.net/pixel/%{name}-%{version}.src.tar.bz2
+Source0:	http://merd.net/pixel/%{name}-%{version}.src.tar.lzma
 Requires:	tk
 Requires:	tcl
 BuildRequires:	ocaml >= 3.00
