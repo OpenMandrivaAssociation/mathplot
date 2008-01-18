@@ -4,8 +4,8 @@ Version:	0.8.6
 Release:	%mkrel 1
 License:	GPLv3+
 Group:		Sciences/Mathematics
-Url:		http://merd.net/pixel/mathplot.html
-Source0:	http://merd.net/pixel/%{name}-%{version}.src.tar.lzma
+Url:		http://rigaux.org/mathplot.html
+Source0:	http://rigaux.org/%{name}-%{version}.src.tar.lzma
 Requires:	tk
 Requires:	tcl
 BuildRequires:	ocaml >= 3.00
