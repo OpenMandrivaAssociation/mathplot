@@ -4,6 +4,7 @@ Version:	0.8.6
 Release:	%mkrel 1
 License:	GPLv3+
 Group:		Sciences/Mathematics
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url:		http://rigaux.org/mathplot.html
 Source0:	http://rigaux.org/%{name}-%{version}.src.tar.lzma
 Requires:	tk
