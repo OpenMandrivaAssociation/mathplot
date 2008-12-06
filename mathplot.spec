@@ -1,11 +1,11 @@
 Summary:	Interactive function grapher
 Name:		mathplot
 Version:	0.8.6
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPLv3+
 Group:		Sciences/Mathematics
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Url:		http://rigaux.org/mathplot.html
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+URL:		http://rigaux.org/mathplot.html
 Source0:	http://rigaux.org/%{name}-%{version}.src.tar.lzma
 Requires:	tk
 Requires:	tcl
@@ -41,11 +41,11 @@ It's written in OCaml using the Tk toolkit for the GUI frontend.
 %setup -q -n %{name}
 
 %build
-CFLAGS="%{optflags}" make prefix=/usr
+CFLAGS="%{optflags}" make prefix=%{_prefix}
 
 %install
 rm -rf %{buildroot}
-%makeinstall_std prefix=/usr
+%makeinstall_std prefix=%{_prefix}
 
 %find_lang %{name}
 
