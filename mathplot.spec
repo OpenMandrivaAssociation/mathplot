@@ -12,7 +12,7 @@ Requires:	tcl
 BuildRequires:	ocaml >= 3.00
 BuildRequires:	ocaml-labltk
 BuildRequires:	X11-devel
-BuildRequires:	ImageMagick
+BuildRequires:	imagemagick
 BuildRequires:	ncurses-devel
 BuildRequires:	findlib
 BuildRequires:	ocaml-simple_gettext-devel
