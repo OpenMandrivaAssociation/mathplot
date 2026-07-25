@@ -1,7 +1,7 @@
 Summary:	Interactive function grapher
 Name:		mathplot
 Version:	0.8.6
-Release:	%mkrel 5
+Release:	6
 License:	GPLv3+
 Group:		Sciences/Mathematics
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
